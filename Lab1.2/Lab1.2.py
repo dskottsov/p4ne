@@ -13,6 +13,8 @@ list_x = list (map(getvalue, sheet['A'][1:]))
 list_y = list (map(getvalue, sheet['D'][1:]))
 list_z = list (map(getvalue, sheet['C'][1:]))
 
+print(list(map(getvalue, sheet['A'][1:])))
+
 pyplot.plot(list_x,list_y)
 pyplot.plot(list_x,list_z)
 pyplot.show()
