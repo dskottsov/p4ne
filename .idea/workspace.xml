@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb86ee19-067d-4920-a8c4-2a12253c0d9b" name="Changes" comment="Lab1.2">
+      <change afterPath="$PROJECT_DIR$/Lab1.3/Lab1.3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1.2/Lab1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.2/Lab1.2.py" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
       <recent name="C:\Users\ds.kottsov\PycharmProjects\p4ne" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab1.2">
+  <component name="RunManager" selected="Python.Lab1.3">
     <configuration name="HelloWorld (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p4ne" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,8 +109,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lab1.3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p4ne" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab1.3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab1.3/Lab1.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab1.3" />
         <item itemvalue="Python.Lab1.2" />
         <item itemvalue="Python.HelloWorld (1)" />
         <item itemvalue="Python.HelloWorld" />
@@ -146,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655823991892</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lab1.2">
+      <created>1655824856857</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655824856857</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

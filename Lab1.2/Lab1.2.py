@@ -15,7 +15,13 @@ list_z = list (map(getvalue, sheet['C'][1:]))
 
 print(list(map(getvalue, sheet['A'][1:])))
 
-pyplot.plot(list_x,list_y)
-pyplot.plot(list_x,list_z)
+
+pyplot.plot(list_x,list_y, label="относительная температура")
+pyplot.plot(list_x,list_z, label="активность солнца")
 pyplot.show()
+
+
+
+
+
 
