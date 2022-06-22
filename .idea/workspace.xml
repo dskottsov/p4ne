@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb86ee19-067d-4920-a8c4-2a12253c0d9b" name="Changes" comment="Lab1.2">
-      <change afterPath="$PROJECT_DIR$/Lab1.3/Lab1.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1.2/Lab1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.2/Lab1.2.py" afterDir="false" />
-    </list>
+    <list default="true" id="fb86ee19-067d-4920-a8c4-2a12253c0d9b" name="Changes" comment="Lab1.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655824856857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab1.2">
+      <created>1655910103760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655910103760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
