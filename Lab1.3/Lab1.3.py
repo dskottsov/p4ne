@@ -7,6 +7,9 @@ result = getCmd(SnmpEngine(),
                 ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysDescr', 0)))
 
 for r in result:
+    print(r[2])
+    print(list(r))
+    print('---------------------------------------')
     for s in r[3]:
         print(s)
 
