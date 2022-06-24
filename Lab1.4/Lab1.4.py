@@ -14,17 +14,21 @@ class IPv4RandomNetwork(ipaddress.IPv4Network):
         self.ip_net=random.randint(8,24)
         ipaddress.IPv4Network.__init__(self, (self.ip_addr, self.ip_net), strict=False)
 
-test1 = IPv4RandomNetwork()
+#test1 = IPv4RandomNetwork()
 
-class Networks_list(IPv4RandomNetwork):
-    def ret_random_net(self):
-        for i in range(0, 50):
-            rn = IPv4RandomNetwork()
-            return rn
+#class Networks_list(IPv4RandomNetwork):
+ #   def ret_random_net(self):
+  #      for i in range(0, 50):
+   #         rn = IPv4RandomNetwork()
+    #        return rn
 
-test2=Networks_list()
+#test2=Networks_list()
 
-print(test2.ret_random_net())
+#print(test2.ret_random_net())
+
+for i in range(0, 50):
+    test1 = IPv4RandomNetwork()
+    print (test1)
 
 
 
