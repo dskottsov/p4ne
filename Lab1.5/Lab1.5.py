@@ -10,6 +10,7 @@ for name in L:
             r = re.match("^ ip address ([0-9.]+) ([0-9.]+)$", L)
             if r:
                 print(r.group(1), r.group(2))
+                
 
 
 
