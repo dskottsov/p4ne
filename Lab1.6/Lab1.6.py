@@ -2,6 +2,7 @@ import ssl
 import requests
 import urllib3
 import pprint
+import re
 
 from urllib3.poolmanager import PoolManager
 from requests.adapters import HTTPAdapter
@@ -25,7 +26,20 @@ token = r.json()['token-id']
 
 header = {"content-type": "application/json", "X-Auth-Token": token}
 r = s.get(url + '/api/v1/interfaces', headers=header, verify=False)
-req = pprint.pprint(r.json())
+
+req = (pprint.pprint(r.json()))
+
+for line in L:
+    r = re.match('.+?([0-9]+) packets input,([0-9]+) bytes', line)
+    if r:= print('Packets ', r.group)
+
+
+
+
+
+
+
+
 
 
 
